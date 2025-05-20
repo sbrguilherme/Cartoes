@@ -6,7 +6,7 @@ from processador_faturas import processar_pdfs_com_visao_geral
 
 st.set_page_config(page_title="📄 Processador de Faturas", layout="centered")
 
-st.title("📄 Processador de Faturas em PDF")
+st.title("📄 Processador de Fatura (Cartão de Crédito) em PDF")
 st.markdown("Envie faturas em PDF e receba uma planilha Excel com abas e visão geral.")
 
 if "arquivos" not in st.session_state:
